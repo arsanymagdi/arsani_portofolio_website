@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsany's Portfolio CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> 
+    <link rel="shortcut icon" type="imge/x-icon" href="img/channels4_profile.jpg">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/arsany1.png" " id="logo" />
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="https://www.youtube.com/channel/UC8pXC1B3IVjooBlotjOQZMA"><i class=fas fa-link></i>My chanel</a></l>
+        </ul>
+        <img src="img/moon.png" id="icon" />
+      </nav>
+    </header>
+    <main>
+      <section class="info">
+        <h1>I'm <span>Arsany</span> Magdy</h1>
+        <p>i have 12 years ago i'm programer html & css and pyton , youtuber and
+          graphique dessiner </p>
+ <a href="cv.pdf">Download CV</a>
+      </section>
+      <section class="img-box">
+        <img src="img/pattern2.png" class="back-img" />
+        <img src="../../img/mou2.png" class="main-img" />
+      </section>
+    </main>
+
+    <script>
+      const icon = document.getElementById("icon");
+      icon.addEventListener("click", () => {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+          icon.src = "img/sun.png";
+        } else {
+          icon.src = "img/moon.png";
+        }
+      });
+    </script>
+  </body>
+</html>
