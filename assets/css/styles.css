@@ -737,9 +737,9 @@ svg {
     column-gap: 3rem;
   }
 
-  /* .nav__menu{
+  .nav__menu{
     width: initial;
-  } */
+  } 
 
   .blur-header::after{
     backdrop-filter: blur(25px);
