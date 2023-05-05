@@ -112,7 +112,7 @@ sr.reveal(`.services__card, .projects__card`, {interval: 100})
 
 /*==================typed js================*/
 var typed = new Typed('#element', {
-    strings: ['Front-end Developer', 'back-end Developer', 'App Developer'],
+    strings: ['Front-end Developer', 'back-end Developer', 'App Developer', 'Robot EV3 Developer', 'Robot NXT Developer', 'Robot VEX Developer', 'Robot WEDO Developer'],
     typeSpeed: 200,
     backSpeed: 50,
     backDelay: 1000,
