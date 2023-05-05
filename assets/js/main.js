@@ -114,7 +114,7 @@ sr.reveal(`.services__card, .projects__card`, {interval: 100})
 var typed = new Typed('#element', {
     strings: ['Front-end Developer', 'back-end Developer', 'App Developer'],
     typeSpeed: 200,
-    backSpeed: 200,
+    backSpeed: 50,
     backDelay: 1000,
     loop: true,
  });
