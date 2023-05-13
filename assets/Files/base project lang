@@ -5,13 +5,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
       <!--=============== REMIXICONS ===============-->
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
       <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="../css/style.css">
 
       <title>Responsive portfolio website - Bedimcode</title>
    </head>
@@ -68,34 +68,10 @@
                   <div class="home__data">
 
                      <h1 class="home__title">code</h1>
-                     <p>
-                        You must install QR code library
-                        By typing "pip install qrcode"
                      <div class="code">
-                        
          
                         <article class="services__card">
                            <script type="text/plain" class="language-python">
-                              # Importing library
-                              import qrcode
-                              
-                              # Data to encode
-                              data = "https://arsanitech.000webhostapp.com/"
-                              
-                              # Creating an instance of QRCode class
-                              qr = qrcode.QRCode(version = 1,
-                                              box_size = 10,
-                                              border = 5)
-                              
-                              # Adding data to the instance 'qr'
-                              qr.add_data(data)
-                              
-                              qr.make(fit = True)
-                              img = qr.make_image(fill_color = 'red',
-                                                  back_color = 'white')
-                              
-                              img.save('MyQRCode2.png')
-                           
                            </script>
                         </article>
             
@@ -117,7 +93,7 @@
                </h1>
 
                <h2 class="footer__education">
-                  Front-end Developer <br> Back-end Developer
+                  Full stack Developer
                </h2>
             </div>
 
@@ -142,14 +118,14 @@
       </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
+      <script src="../js/scrollreveal.min.js"></script>
 
       <!--=============== EMAIL JS ===============-->
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-      <script src="assets/js/box .js"></script>
+      <script src="../js/main.js"></script>
+      <script src="../js/box .js"></script>
       <!-- typedjs -->
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <!-- <script>
