@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism-tomorrow.min.css'><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="../css/style.css">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../css/style_code.css">
+
+      <title>Arsani-Tech</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               Arsani <span>Magdi</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__list">
+                     <a href="../../index.html" class="nav__link active-link">
+                        <i class="ri-arrow-left-line"></i>Back</a>
+                  </li>
+
+               <!-- close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+<section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__data">
+
+                     <h1 class="home__title">code</h1>
+                     <p>
+                        You must install QR code library
+                        By typing "pip install qrcode"
+                     <div class="code">
+                        
+         
+                        <article class="services__card">
+                            <pre><code class="language-python">
+                                # Importing library
+                                import qrcode
+                                
+                                # Data to encode
+                                data = "https://arsanitech.000webhostapp.com/"
+                                
+                                # Creating an instance of QRCode class
+                                qr = qrcode.QRCode(version = 1,
+                                                box_size = 10,
+                                                border = 5)
+                                
+                                # Adding data to the instance 'qr'
+                                qr.add_data(data)
+                                
+                                qr.make(fit = True)
+                                img = qr.make_image(fill_color = 'red',
+                                                    back_color = 'white')
+                                
+                                img.save('MyQRCode2.png')
+                                
+                                .© Copyright Arsani-Tech. All rights reserved
+                            </code></pre>
+                        </article>
+            
+                     </div>
+                     </p>
+
+                  </div>
+               </div>
+               </div>
+            </div>
+         </section>
+         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">
+                  Arsani <span>Magdi</span>
+               </h1>
+
+               <h2 class="footer__education">
+                  Full stack Developer
+               </h2>
+            </div>
+
+            <div class="footer__social">
+               <a href="https://www.youtube.com/channel/UC8pXC1B3IVjooBlotjOQZMA" target="_blank" class="footer__social-link">
+                  <i class="ri-youtube-line"></i>
+               </a>
+
+               <a href="https://github.com/arsanymagdi" target="_blank" class="home__social-link">
+                  <i class="ri-github-fill"></i>
+               </a>
+            </div>
+            <span class="footer__copy">
+               &#169; Copyright Arsani-Tech. All rights reserved
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="../js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="../js/main.js"></script>
+      <script src="../js/box .js"></script>
+      <script src="main.js"></script>
+      <!-- typedjs -->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- <script>
+         var typed = new Typed('#element', {
+            strings: ['Front-end Developer', 'back-end Developer', 'App Developer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 50,
+            loop: true,
+         });
+       </script> -->
+       <!-- <script type="text/javascript" src="https://elzero.org/wp-includes/js/jquery/jquery.js?ver=6.1.1" id="jquery-js"></script>
+       <script type="text/javascript" src="https://elzero.org/wp-content/themes/elzero/js/bootstrap.min.js?ver=6.1.1" id="bootstrap-js-js"></script> -->
+       <!-- <script type="text/javascript" src="https://elzero.org/wp-content/themes/elzero/js/prism.js?ver=6.1.1" id="prism-highlight-js"></script> -->
+       <!-- <script type="text/javascript" src="https://elzero.org/wp-content/themes/elzero/js/main.js?ver=6.1.1" id="main-js-js"></script> -->
+
+   </body>
+</html>
