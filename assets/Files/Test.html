@@ -8,17 +8,28 @@
     <main>
         <h1>All  the Clipboard API</h1>
         <p>Florid, wordly code exposition.</p>
-        <pre><code class="language-css">.some-box {
-          width: 20px;
-          height: 20px;
-          background: black;
-          margin-bottom: 1.5rem;
-      }
+        <pre><code class="language-python"># Importing library
+          import qrcode
+          
+          # Data to encode
+          data = "https://arsanitech.000webhostapp.com/"
+          
+          # Creating an instance of QRCode class
+          qr = qrcode.QRCode(version = 1,
+                          box_size = 10,
+                          border = 5)
+          
+          # Adding data to the instance 'qr'
+          qr.add_data(data)
+          
+          qr.make(fit = True)
+          img = qr.make_image(fill_color = 'red',
+                              back_color = 'white')
+          
+          img.save('MyQRCode2.png')
+          
+          .© Copyright Arsani-Tech. All rights reserved
       </code></pre>
-        <p>And I'll tell you another thing..</p>
-        <pre><code class="language-html">&lt;div class="box drop3"&gt;&lt;/div&gt;</code></pre>
-        <p>No! Not finished..</p>
-        <pre><code class="language-javascript">console.log("finished");</code></pre>
       </main>
 
       <script src="main.js"></script>
