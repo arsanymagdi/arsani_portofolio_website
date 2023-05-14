@@ -3,7 +3,9 @@
 *:after {
   box-sizing: border-box;
 }
-
+body{
+    background-color: black;
+}
 pre[class*="language-"] {
   position: relative;
   overflow: auto;
