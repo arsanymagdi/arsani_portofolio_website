@@ -4698,17 +4698,35 @@ Prism.languages.iecst = {
   }
 })();
 
-function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
+const copyButtonLabel = "Copy Code";
 
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
+// use a class selector if available
+let blocks = document.querySelectorAll("pre");
 
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
 
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block);
+    });
+  }
+});
+
+block.setAttribute("tabindex", 0);
+async function copyCode(block) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
 }
+block.setAttribute("tabindex", 0);
+button.innerText = "Code Copied";
+
+setTimeout(()=> {
+  button.innerText = copyButtonLabel;
+},700)
