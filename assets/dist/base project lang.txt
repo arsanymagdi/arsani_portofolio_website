@@ -8,6 +8,7 @@
       <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
       <!--=============== REMIXICONS ===============-->
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism-tomorrow.min.css'><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="../css/style.css">
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
       <!--=============== CSS ===============-->
@@ -20,7 +21,7 @@
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
-            <a href="#" class="nav__logo">
+            <a href="../../index.html" class="nav__logo">
                Arsani <span>Magdi</span>
             </a>
 
@@ -55,16 +56,16 @@
                      <h1 class="home__title">code</h1>
                      <p>
                         You must install QR code library
-                        By typing "pip install qrcode"
+                        By typing "pip install qrcode"on the command prompt after install python app and vscode by default you run and debugon vscode
                      <div class="code">
                         
          
-                        <article class="services__card">
-                           <pre><code class="language-python">
-                           
-                              .&#169; Copyright Arsani-Tech. All rights reserved
-                          </code></pre>
-                        </article>
+                            <pre><code class="language-python">
+                                
+                                
+                                .© Copyright Arsani-Tech. All rights reserved
+                            </code></pre>
+
             
                      </div>
                      </p>
@@ -76,32 +77,7 @@
          </section>
          <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <div>
-               <h1 class="footer__title">
-                  Arsani <span>Magdi</span>
-               </h1>
 
-               <h2 class="footer__education">
-                  Full stack Developer
-               </h2>
-            </div>
-
-            <div class="footer__social">
-               <a href="https://www.youtube.com/channel/UC8pXC1B3IVjooBlotjOQZMA" target="_blank" class="footer__social-link">
-                  <i class="ri-youtube-line"></i>
-               </a>
-
-               <a href="https://github.com/arsanymagdi" target="_blank" class="home__social-link">
-                  <i class="ri-github-fill"></i>
-               </a>
-            </div>
-            <span class="footer__copy">
-               &#169; Copyright Arsani-Tech. All rights reserved
-            </span>
-         </div>
-      </footer>
 
       <!--========== SCROLL UP ==========-->
       <a href="#" class="scrollup" id="scroll-up">
@@ -117,7 +93,8 @@
       <!--=============== MAIN JS ===============-->
       <script src="../js/main.js"></script>
       <script src="../js/box .js"></script>
-      <script src="main.js"></script>
+      <script src="script.js"></script>
+      
       <!-- typedjs -->
       <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <!-- <script>
