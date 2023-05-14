@@ -914,3 +914,7 @@ svg {
     right: 3rem;
   }
 }
+/*================*/
+.ri-arrow-left-line{
+  color: var(--first-color);
+}
