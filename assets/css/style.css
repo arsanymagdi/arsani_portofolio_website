@@ -353,6 +353,7 @@ svg {
   color: var(--title-color);
   font-weight: var(--font-medium);
   transform: box-shadow .4s;
+  cursor: pointer;
 }
 
 .button:hover{
