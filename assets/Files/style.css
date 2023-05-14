@@ -3,9 +3,7 @@
 *:after {
   box-sizing: border-box;
 }
-body{
-    background-color: white;
-}
+
 pre[class*="language-"] {
   position: relative;
   overflow: auto;
@@ -35,3 +33,12 @@ pre[class*="language-"] button:hover {
   background-color: #bcbabb;
 }
 
+main {
+  display: grid;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
