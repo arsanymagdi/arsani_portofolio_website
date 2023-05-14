@@ -33,12 +33,3 @@ pre[class*="language-"] button:hover {
   background-color: #bcbabb;
 }
 
-main {
-  display: grid;
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-h1 {
-  font-size: 1.3rem;
-}
