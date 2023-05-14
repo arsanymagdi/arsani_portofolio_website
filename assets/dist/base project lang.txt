@@ -62,11 +62,10 @@
          
                             <pre><code class="language-python">
                                 
-                                
                                 .© Copyright Arsani-Tech. All rights reserved
                             </code></pre>
+                            <a href="../Files/qrgenrator.zip" class="button">download Code</a>
 
-            
                      </div>
                      </p>
 
