@@ -81,36 +81,9 @@
            }
          });
        </script>
-         <style>
-            /* Styles for the pop-up message */
-            .popup {
-              display: none;
-              position: fixed;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-              width: 300px;
-              padding: 20px;
-              background-color: #2c2b2b;
-              border: 1px solid #282828;
-              border-radius: 4px;
-              text-align: center;
-              z-index: 9999;
-            }
-            .popup h2{
-               color: white;
-            }
-
-            .popup button{
-               cursor: pointer;
-            }
-          </style>
    </head>
    <body>
-       <div id="popupMessage" class="popup">
-    <h2 class="popup">shortcuts</h2>
-    <button onclick="hidePopup()">Close</button>
-  </div>
+
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
@@ -245,6 +218,10 @@
                      projects carried out.
                   </p>
                   <a href="#contact" class="button">Contact Me</a>
+
+                  <p>
+                     <i class="ri-lightbulb-line"></i>hint for keybord shortcuts: to go home you can press "h" about "a" services "s" projects "p" contact "c" Back "b"
+                  </p>
                </div>
 
                <div class="about__image">
@@ -581,7 +558,6 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
-      <script src="assets/js/script.js"></script>
 
 
       <!-- typedjs -->

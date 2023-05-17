@@ -15,7 +15,24 @@
       <link rel="stylesheet" href="../css/style.css">
       <link rel="stylesheet" href="../css/style_code.css">
 
-      <title>Arsani-Tech</title>
+      <title>Arsani-Tech -QRcode generator</title>
+      <script>
+         function navigateTo(url) {
+           // Perform navigation action here
+           window.location.href = url;
+         }
+     
+         document.addEventListener('keydown', function(event) {
+           // Check if the 'H' key is pressed
+
+
+            // Check if the 'B' key is pressed
+            if (event.key.toLowerCase() === 'b') {
+             // Execute the action for shortcut 'B'
+             navigateTo('https://arsani-tech.netlify.app/#projects');
+           }
+         });
+       </script>
    </head>
    <body>
       <!--==================== HEADER ====================-->
@@ -28,7 +45,7 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__list">
-                     <a href="../../index.html" class="nav__link active-link">
+                     <a href="https://arsani-tech.netlify.app/#projects" class="nav__link active-link">
                         <i class="ri-arrow-left-line"></i>Back</a>
                   </li>
 
@@ -52,7 +69,8 @@
             <div class="home__container container grid">
                <div class="home__content">
                   <div class="home__data">
-
+                     <p>Final Result</p>
+                     <img src="../img/MyQRCode.png" alt="">
                      <h1 class="home__title">code</h1>
                      <p>
                         You must install QR code library
@@ -61,10 +79,9 @@
                         
          
                             <pre><code class="language-python">
-                                
-                                .© Copyright Arsani-Tech. All rights reserved
+
                             </code></pre>
-                            <a href="../Files/qrgenrator.zip" class="button">download Code</a>
+                            <a href="#" class="button">download Code</a>
 
                      </div>
                      </p>

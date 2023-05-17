@@ -16,6 +16,23 @@
       <link rel="stylesheet" href="../css/style_code.css">
 
       <title>Arsani-Tech -Pomodoro timer</title>
+      <script>
+         function navigateTo(url) {
+           // Perform navigation action here
+           window.location.href = url;
+         }
+     
+         document.addEventListener('keydown', function(event) {
+           // Check if the 'H' key is pressed
+
+
+            // Check if the 'B' key is pressed
+            if (event.key.toLowerCase() === 'b') {
+             // Execute the action for shortcut 'B'
+             navigateTo('https://arsani-tech.netlify.app/#projects');
+           }
+         });
+       </script>
    </head>
    <body>
       <!--==================== HEADER ====================-->
@@ -28,7 +45,7 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__list">
-                     <a href="../../index.html" class="nav__link active-link">
+                     <a href="https://arsani-tech.netlify.app/#projects" class="nav__link active-link">
                         <i class="ri-arrow-left-line"></i>Back</a>
                   </li>
 
