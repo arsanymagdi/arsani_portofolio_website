@@ -14,6 +14,36 @@
       <link rel="stylesheet" href="assets/css/styles.css">
 
       <title>Arsani-Tech</title>
+
+      <!--=============== HOTKEYS ===============-->
+      <script>
+         function navigateTo(url) {
+           // Perform navigation action here
+           window.location.href = url;
+         }
+     
+         document.addEventListener('keydown', function(event) {
+           // Check if the 'Alt' key and '1' key are pressed simultaneously
+           if (event.altKey && event.keyCode === a) {
+             // Execute the action for shortcut Alt+1
+             navigateTo('https://arsani-tech.netlify.app/#about');
+           }
+     
+           // Check if the 'Alt' key and '2' key are pressed simultaneously
+           if (event.altKey && event.keyCode === h) {
+             // Execute the action for shortcut Alt+2
+             navigateTo('https://arsani-tech.netlify.app/');
+           }
+     
+           // Check if the 'Alt' key and '3' key are pressed simultaneously
+           if (event.altKey && event.keyCode === c) {
+             // Execute the action for shortcut Alt+3
+             navigateTo('#contact');
+           }
+     
+           // Add more if statements for other shortcuts as needed
+         });
+       </script>
    </head>
    <body>
       <!--==================== HEADER ====================-->

@@ -119,13 +119,3 @@ var typed = new Typed('#element', {
     loop: true,
  });
 
-
- document.addEventListener("keydown", function(event) {
-    if (event.keyCode == h) {
-      window.location = "https://arsani-tech.netlify.app/";
-    } else if (event.keyCode == a) {
-      window.location = "https://arsani-tech.netlify.app/#about";
-    } else if (event.keyCode == c) {
-      window.location = "https://arsani-tech.netlify.app/#contact";
-    }
-  });
