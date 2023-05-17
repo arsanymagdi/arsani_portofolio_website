@@ -91,17 +91,24 @@
               transform: translate(-50%, -50%);
               width: 300px;
               padding: 20px;
-              background-color: #f1f1f1;
-              border: 1px solid #ccc;
+              background-color: #2c2b2b;
+              border: 1px solid #282828;
               border-radius: 4px;
               text-align: center;
               z-index: 9999;
+            }
+            .popup h2{
+               color: white;
+            }
+
+            .popup button{
+               cursor: pointer;
             }
           </style>
    </head>
    <body>
        <div id="popupMessage" class="popup">
-    <h2>This is a pop-up message!</h2>
+    <h2 class="popup">shortcuts</h2>
     <button onclick="hidePopup()">Close</button>
   </div>
       <!--==================== HEADER ====================-->
