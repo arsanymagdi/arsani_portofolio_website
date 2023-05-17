@@ -17,28 +17,28 @@
 
       <!--=============== HOTKEYS ===============-->
       <script>
-         function navigateTo(section) {
+         function navigateTo(url) {
            // Perform navigation action here
-           window.location.href = section;
+           window.location.href = url;
          }
      
          document.addEventListener('keydown', function(event) {
            // Check if the 'Alt' key and '1' key are pressed simultaneously
-           if (event.altKey && event.keyCode === a) {
+           if (event.altKey && event.keyCode === 49) {
              // Execute the action for shortcut Alt+1
-             navigateTo('https://arsani-tech.netlify.app/#about');
-           }
-     
-           // Check if the 'Alt' key and '2' key are pressed simultaneously
-           if (event.altKey && event.keyCode === h) {
-             // Execute the action for shortcut Alt+2
              navigateTo('https://arsani-tech.netlify.app/');
            }
      
+           // Check if the 'Alt' key and '2' key are pressed simultaneously
+           if (event.altKey && event.keyCode === 50) {
+             // Execute the action for shortcut Alt+2
+             navigateTo('https://arsani-tech.netlify.app/#about');
+           }
+     
            // Check if the 'Alt' key and '3' key are pressed simultaneously
-           if (event.altKey && event.keyCode === c) {
+           if (event.altKey && event.keyCode === 51) {
              // Execute the action for shortcut Alt+3
-             navigateTo('#contact');
+             navigateTo('https://arsani-tech.netlify.app/#contact');
            }
      
            // Add more if statements for other shortcuts as needed
