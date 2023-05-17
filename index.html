@@ -16,7 +16,7 @@
       <title>Arsani-Tech</title>
 
       <!--=============== HOTKEYS ===============-->
-      <script>
+      <!-- <script>
          function navigateTo(url) {
            // Perform navigation action here
            window.location.href = url;
@@ -42,6 +42,32 @@
            }
      
            // Add more if statements for other shortcuts as needed
+         });
+       </script> -->
+       <script>
+         function navigateTo(url) {
+           // Perform navigation action here
+           window.location.href = url;
+         }
+     
+         document.addEventListener('keydown', function(event) {
+           // Check if the 'A' key is pressed
+           if (event.key.toLowerCase() === 'a') {
+             // Execute the action for shortcut 'A'
+             navigateTo('https://arsani-tech.netlify.app/');
+           }
+     
+           // Check if the 'B' key is pressed
+           if (event.key.toLowerCase() === 'b') {
+             // Execute the action for shortcut 'B'
+             navigateTo('https://arsani-tech.netlify.app/#about');
+           }
+     
+           // Check if the 'C' key is pressed
+           if (event.key.toLowerCase() === 'c') {
+             // Execute the action for shortcut 'C'
+             navigateTo('https://arsani-tech.netlify.app/#contact');
+           }
          });
        </script>
    </head>
