@@ -81,8 +81,29 @@
            }
          });
        </script>
+         <style>
+            /* Styles for the pop-up message */
+            .popup {
+              display: none;
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 300px;
+              padding: 20px;
+              background-color: #f1f1f1;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              text-align: center;
+              z-index: 9999;
+            }
+          </style>
    </head>
    <body>
+      <div id="popupMessage" class="popup">
+         <h2>This is a pop-up message!</h2>
+         <button onclick="hidePopup()">Close</button>
+       </div>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
