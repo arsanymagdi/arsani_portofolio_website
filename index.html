@@ -109,32 +109,44 @@
           </style>
    </head>
    <body>
-      <div class="pop">
-      <h1>Pop-out Example</h1>
-      <button onclick="showPopup()">Show Pop-out</button>
-    
-      <div id="popup" class="popup">
-        <h2>This is a Pop-out!</h2>
-        <p>Click outside this box to close it.</p>
-      </div>
-      
-      <div id="overlay" class="overlay"></div>
-    
-      <script>
-        function showPopup() {
-          var popup = document.getElementById("popup");
-          var overlay = document.getElementById("overlay");
-          popup.style.display = "block";
-          overlay.style.display = "block";
-        }
-    
-        document.getElementById("overlay").addEventListener("click", function() {
-          var popup = document.getElementById("popup");
-          var overlay = document.getElementById("overlay");
-          popup.style.display = "none";
-          overlay.style.display = "none";
-        });
-      </script>
+ 
+Apologies for the confusion. If you want the pop-out to appear automatically without any user interaction, you can achieve it using JavaScript's window.onload event. Here's an example:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        width: 300px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+      }
+    </style>
+</head>
+<body>
+  <h1>Pop-out Example</h1>
+
+  <div id="popup" class="popup">
+    <h2>This is a Pop-out!</h2>
+    <p>Close this box to continue.</p>
+  </div>
+
+  <script>
+    window.onload = function() {
+      var popup = document.getElementById("popup");
+      popup.style.display = "block";
+    };
+  </script>
       </div>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
