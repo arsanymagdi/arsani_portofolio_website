@@ -43,3 +43,21 @@ body{
     outline: 0;
     font-size: 24px;
 }
+.content button img{
+    width: 28px;
+    margin-right: 10px;
+}
+.content button{
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
