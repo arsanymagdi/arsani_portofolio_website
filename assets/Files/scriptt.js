@@ -10,7 +10,6 @@ const allChars = upperCase + lowerCase + number + symbol;
 
 function createPassword(){
     let password = "";
-    password += upperCase[Math.floor(Math.random() * uppercase.length)];
     password += upperCase[Math.floor(Math.random() * upperCase.lenght)];
     password += lowerCase[Math.floor(Math.random() * lowerCase.lenght)];
     password += number[Math.floor(Math.random() * number.lenght)];
