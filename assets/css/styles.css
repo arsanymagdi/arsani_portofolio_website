@@ -219,6 +219,10 @@ svg {
   color: var(--first-color);
 }
 
+.nav__admin{
+  color: red;
+}
+
 .nav__close{
   position: absolute;
   top: 1rem;
