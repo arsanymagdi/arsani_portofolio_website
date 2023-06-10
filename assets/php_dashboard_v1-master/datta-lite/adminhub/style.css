@@ -48,7 +48,9 @@ body {
 
 
 
-
+iframe{
+	border-radius: 10px;
+}
 
 /* SIDEBAR */
 #sidebar {
