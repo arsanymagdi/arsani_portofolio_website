@@ -10,13 +10,13 @@ const allChars = (upperCase + lowerCase + number + symbol);
 
 function createPassword(){
     let password = "";
-    password += upperCase[Math.floor(Math.random() * upperCase.lenght)];
-    password += lowerCase[Math.floor(Math.random() * lowerCase.lenght)];
-    password += number[Math.floor(Math.random() * number.lenght)];
-    password += symbol[Math.floor(Math.random() * symbol.lenght)];
+    password += upperCase[Math.floor(Math.random() * upperCase.length)];
+    password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
+    password += number[Math.floor(Math.random() * number.length)];
+    password += symbol[Math.floor(Math.random() * symbol.length)];
 
     while(lenght > password.lenght){
-        password += allChars[Math.floor(Math.random() * allChars.lenght)]; 
+        password += allChars[Math.floor(Math.random() * allChars.length)]; 
     }
     passwordBox.value = password;
 }
