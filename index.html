@@ -389,7 +389,8 @@
                      </a>
                   </div>
                </article>
-
+               <span id="dots"></span><span id="more"></span>
+               <button onclick="myF()" id="myBtn">Read more</button>
                <article class="projects__card">
                   <img src="assets/websites/Login_v1/Screenshot 2023-05-05 115934.png" alt="projects image" class="projects__img">
 
@@ -591,5 +592,22 @@
             loop: true,
          });
        </script> -->
+       <script>
+         function myF() {
+           var dots = document.getElementById("dots");
+           var moreText = document.getElementById("more");
+           var btnText = document.getElementById("myBtn");
+         
+           if (dots.style.display === "none") {
+             dots.style.display = "inline";
+             btnText.innerHTML = "Read more"; 
+             moreText.style.display = "none";
+           } else {
+             dots.style.display = "none";
+             btnText.innerHTML = "Read less"; 
+             moreText.style.display = "inline";
+           }
+         }
+         </script>
    </body>
 </html>
