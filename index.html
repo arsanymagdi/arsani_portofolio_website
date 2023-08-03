@@ -44,22 +44,7 @@
            // Add more if statements for other shortcuts as needed
          });
        </script> -->
-        <!-- <style>
-      .popup {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #fff;
-        padding: 20px;
-        width: 300px;
-        border: 1px solid #ccc;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        z-index: 9999;
-      }
-    </style> -->
-</head>
+   </head>
 <body>
 
   <!-- <div id="popup" class="popup">
@@ -510,7 +495,7 @@
             </span>
                <!-- Trigger toggleText() when the
             button is clicked -->
-    <button onclick="toggleText()" id="textButton">
+    <button class="showbtn" onclick="toggleText()" id="textButton">
       Show More
   </button>            </div>
          </section>
@@ -599,52 +584,7 @@
          });
        </script> -->
        <script>
-         function toggleText() {
-  
-             // Get all the elements from the page
-             let points =
-                 document.getElementById("points");
-  
-             let showMoreText =
-                 document.getElementById("moreText");
-  
-             let buttonText =
-                 document.getElementById("textButton");
-  
-             // If the display property of the dots
-             // to be displayed is already set to
-             // 'none' (that is hidden) then this
-             // section of code triggers
-             if (points.style.display === "none") {
-  
-                 // Hide the text between the span
-                 // elements
-                 showMoreText.style.display = "none";
-  
-                 // Show the dots after the text
-                 points.style.display = "inline";
-  
-                 // Change the text on button to
-                 // 'Show More'
-                 buttonText.innerHTML = "Show More";
-             }
-  
-             // If the hidden portion is revealed,
-             // we will change it back to be hidden
-             else {
-  
-                 // Show the text between the
-                 // span elements
-                 showMoreText.style.display = "inline";
-  
-                 // Hide the dots after the text
-                 points.style.display = "none";
-  
-                 // Change the text on button
-                 // to 'Show Less'
-                 buttonText.innerHTML = "Show Less";
-             }
-         }
+
      </script>
    </body>
 </html>
