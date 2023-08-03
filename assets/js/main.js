@@ -120,7 +120,7 @@ var typed = new Typed('#element', {
  });
 
 /*==========show more & show less==============*/
-function toggleText() {
+function showbtn() {
   
     // Get all the elements from the page
     let points =
