@@ -389,8 +389,9 @@
                      </a>
                   </div>
                </article>
-               <span id="dots"></span><span id="more"></span>
-               <button onclick="myF()" id="myBtn">Read more</button>
+               <span id="points">...</span>
+
+               <span id="moreText">
                <article class="projects__card">
                   <img src="assets/websites/Login_v1/Screenshot 2023-05-05 115934.png" alt="projects image" class="projects__img">
 
@@ -507,7 +508,11 @@
                   </div>
                </article>
             </span>
-            </div>
+               <!-- Trigger toggleText() when the
+            button is clicked -->
+    <button onclick="toggleText()" id="textButton">
+      Show More
+  </button>            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
@@ -594,21 +599,52 @@
          });
        </script> -->
        <script>
-         function myF() {
-           var dots = document.getElementById("dots");
-           var moreText = document.getElementById("more");
-           var btnText = document.getElementById("myBtn");
-         
-           if (dots.style.display === "none") {
-             dots.style.display = "inline";
-             btnText.innerHTML = "Read more"; 
-             moreText.style.display = "none";
-           } else {
-             dots.style.display = "none";
-             btnText.innerHTML = "Read less"; 
-             moreText.style.display = "inline";
-           }
+         function toggleText() {
+  
+             // Get all the elements from the page
+             let points =
+                 document.getElementById("points");
+  
+             let showMoreText =
+                 document.getElementById("moreText");
+  
+             let buttonText =
+                 document.getElementById("textButton");
+  
+             // If the display property of the dots
+             // to be displayed is already set to
+             // 'none' (that is hidden) then this
+             // section of code triggers
+             if (points.style.display === "none") {
+  
+                 // Hide the text between the span
+                 // elements
+                 showMoreText.style.display = "none";
+  
+                 // Show the dots after the text
+                 points.style.display = "inline";
+  
+                 // Change the text on button to
+                 // 'Show More'
+                 buttonText.innerHTML = "Show More";
+             }
+  
+             // If the hidden portion is revealed,
+             // we will change it back to be hidden
+             else {
+  
+                 // Show the text between the
+                 // span elements
+                 showMoreText.style.display = "inline";
+  
+                 // Hide the dots after the text
+                 points.style.display = "none";
+  
+                 // Change the text on button
+                 // to 'Show Less'
+                 buttonText.innerHTML = "Show Less";
+             }
          }
-         </script>
+     </script>
    </body>
 </html>
