@@ -328,10 +328,10 @@ svg {
   filter: drop-shadow(0 12px 12px hsla(var(--hue), 100%, 40%, .2));
 }
 
-/* .home__img{
-  width: 900px;
+.home__img{
+  width: 930px;
   transform: translateX(-120px);
-} */
+}
 /*=============== BUTTON ===============*/
 .button{
   display: inline-block;
@@ -380,6 +380,10 @@ svg {
 
 .about__blob path{
   stroke: var(--first-color);
+}
+.about_img{
+  width: 930px;
+  transform: translateX(-120px);
 }
 /*=============== SKILLS ===============*/
 .skills{
