@@ -347,16 +347,16 @@ svg {
   box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, .25);
 }
 
-.showbtn{
-  /* display: inline-block;
+/* .showbtn{
+   display: inline-block;
   padding: .3rem;
-  border-radius: .5rem; */
+  border-radius: .5rem; 
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
 .showbtn:hover{
   box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, .25);
-}
+} */
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
