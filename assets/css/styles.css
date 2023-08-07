@@ -331,7 +331,7 @@ svg {
 .home__img{
   width: 930px;
   transform: translateX(-120px);
-}
+} 
 /*=============== BUTTON ===============*/
 .button{
   display: inline-block;
