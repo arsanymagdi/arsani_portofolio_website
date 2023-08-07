@@ -381,7 +381,7 @@ svg {
 .about__blob path{
   stroke: var(--first-color);
 }
-.about_img{
+.about__img{
   width: 930px;
   transform: translateX(-120px);
 }
