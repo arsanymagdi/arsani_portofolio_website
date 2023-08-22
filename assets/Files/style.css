@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background: #02153d,#002765;
-    color: #fff;
+    background: #eee;
+    color: #02153d,#002765;
 }
 .container{
     width: 100%;
