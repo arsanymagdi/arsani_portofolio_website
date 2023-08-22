@@ -69,6 +69,7 @@ ul li{
 }
 ul li::before{
     content: '';
+    color: #555;
     position: absolute;
     height: 28px;
     width: 28px;
