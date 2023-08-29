@@ -65,8 +65,8 @@ const contactForm = document.getElementById('contact-form'),
 (function(){
     emailjs.init("_ibIz9FOot6r5OoTe");
  })()
-
-contactForm.addEventListener('submit', sendEmail)
+ emailjs.send(service_3yle3co, template_6cd7dwc, templateParams, _ibIz9FOot6r5OoTe);
+//contactForm.addEventListener('submit', sendEmail)
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
 	const scrollUp = document.getElementById('scroll-up')
