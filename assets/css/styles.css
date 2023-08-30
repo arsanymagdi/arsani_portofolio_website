@@ -175,7 +175,7 @@ svg {
   font-weight: var(--font-medium);
 }
 #logo {
-  width: 100px;
+  width: 70px;
  cursor: pointer;
 }
 .nav__logo span{
