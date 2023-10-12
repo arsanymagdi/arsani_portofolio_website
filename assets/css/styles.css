@@ -682,7 +682,8 @@ svg {
     padding-block: 1.5rem;
   }
   .footer__title{
-    width: 100px;
+    width: 50px;
+    align-items: center;
   }
 }
 
@@ -699,6 +700,7 @@ svg {
   }
   .footer__title{
     width: 100px;
+    align-items: center;
   }
 }
 
@@ -741,6 +743,7 @@ svg {
   }
   .footer__title{
     width: 100px;
+    align-items: center;
   }
 }
 
@@ -777,6 +780,7 @@ svg {
   }
   .footer__title{
     width: 150px;
+    align-items: center;
   }
 }
 
