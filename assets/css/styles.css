@@ -681,6 +681,9 @@ svg {
   .services__card{
     padding-block: 1.5rem;
   }
+  .footer__title{
+    width: 100px;
+  }
 }
 
 /* For medium devices */
@@ -693,6 +696,9 @@ svg {
   .contact__container{
     grid-template-columns: 360px;
     justify-content: center;
+  }
+  .footer__title{
+    width: 100px;
   }
 }
 
@@ -733,6 +739,9 @@ svg {
   .projects__container{
     grid-template-columns: repeat(2, 352px);
   }
+  .footer__title{
+    width: 100px;
+  }
 }
 
 /* For large devices */
@@ -765,6 +774,9 @@ svg {
   .blur-header::after{
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);/*for safari*/
+  }
+  .footer__title{
+    width: 150px;
   }
 }
 
