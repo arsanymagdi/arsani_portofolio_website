@@ -868,7 +868,7 @@ svg {
     text-align: initial;
   }
   .footer__title{
-    font-weight: var(--font-medium);
+    font-weight: var(--smaller-font-size);
   }
   .footer__social{
     column-gap: 1.5rem;
