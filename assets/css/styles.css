@@ -699,7 +699,7 @@ svg {
     justify-content: center;
   }
   .footer__title{
-    width: 100px;
+    width: 110px;
     align-items: center;
   }
 }
@@ -742,7 +742,7 @@ svg {
     grid-template-columns: repeat(2, 352px);
   }
   .footer__title{
-    width: 100px;
+    width: 150px;
     align-items: center;
   }
 }
@@ -779,7 +779,7 @@ svg {
     -webkit-backdrop-filter: blur(25px);/*for safari*/
   }
   .footer__title{
-    width: 150px;
+    width: 180px;
     align-items: center;
   }
 }
