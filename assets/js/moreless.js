@@ -7,7 +7,7 @@ var status = "less";
 
 function toggleText()
 {
-    var text="Here is some text that I want added to the HTML file";
+
     
     if (status == "less") {
         document.getElementById("textArea").innerHTML=text;
