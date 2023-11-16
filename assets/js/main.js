@@ -125,8 +125,6 @@ var typed = new Typed('#element', {
 function showbtn() {
   
     // Get all the elements from the page
-    let points =
-        document.getElementById("points");
 
     let showMoreText =
         document.getElementById("moreText");
@@ -144,8 +142,7 @@ function showbtn() {
         // elements
         showMoreText.style.display = "none";
 
-        // Show the dots after the text
-        points.style.display = "inline";
+
 
         // Change the text on button to
         // 'Show More'
@@ -160,8 +157,6 @@ function showbtn() {
         // span elements
         showMoreText.style.display = "inline";
 
-        // Hide the dots after the text
-        points.style.display = "none";
 
         // Change the text on button
         // to 'Show Less'
