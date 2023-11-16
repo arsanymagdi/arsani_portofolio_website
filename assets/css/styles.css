@@ -533,6 +533,21 @@ svg {
 .projects__card:hover .projects__modal{
   bottom: 0;
 }
+.box {
+  /*   max-height: 8rem; */
+  margin-bottom: 0;
+  overflow: hidden;
+  font-size: 13px !important;
+  line-height: 25px !important;
+  font-family: "Poppins", sans-serif;
+  transition: all 1s;
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
 /*=============== CONTACT ===============*/
 .contact__container{
   padding-top: 1rem;

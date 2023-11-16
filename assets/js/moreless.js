@@ -1,21 +1,4 @@
-function showtext()
-{
-var text="Here is some text that I want added to the HTML file";
-document.getElementById("textarea").innerHTML=text;
-}
-var status = "less";
-
-function toggleText()
-{
-
-    
-    if (status == "less") {
-        document.getElementById("textArea").innerHTML=text;
-        document.getElementById("toggleButton").innerText = "See Less";
-        status = "more";
-    } else if (status == "more") {
-        document.getElementById("textArea").innerHTML = "";
-        document.getElementById("toggleButton").innerText = "See More";
-        status = "less"
-    }
-}
+$(".show-btn").on("click", function () {
+    $(".more").toggleClass("hidden");
+  });
+  
