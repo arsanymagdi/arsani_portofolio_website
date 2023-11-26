@@ -545,39 +545,6 @@ svg {
 }
 .hidden {
   display: none;
-}
- .btn {
-  border-radius: 1.5em;
-  left: 30%;
-  padding: 1em;
-  text-decoration: none;
-  width: 40%;
-} 
-.show, .hide {
-  position: absolute;
-  bottom: -1em;
-  z-index: 100;
-  text-align: center;
-}
-
-.hide {display: none;}
-.show:target {display: none;}
-.show:target ~ .hide {display: block;}
-.show:target ~ .panel {
-   max-height: 2000px; 
-}
-.show:target ~ .fade {
-  margin-top: 0;
-}
-
-.panel {
-  position: relative;
-  margin: 2em auto;
-  width: 70%;
-  max-height: 100px;
-  overflow: hidden;
-  transition: max-height .5s ease;
-}
 
 
 /*=============== CONTACT ===============*/
