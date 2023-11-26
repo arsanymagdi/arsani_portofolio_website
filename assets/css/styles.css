@@ -547,11 +547,7 @@ svg {
   display: none;
 }
  .btn {
-  border-radius: 1.5em;
-  left: 30%;
-  padding: 1em;
-  text-decoration: none;
-  width: 40%;
+
 } 
 .show, .hide {
   position: absolute;
