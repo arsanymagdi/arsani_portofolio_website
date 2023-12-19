@@ -543,7 +543,7 @@ svg {
   transition: all 1s;
   clear: both;
 } */
-.hidden {
+/* .hidden {
   display: none;
 }
  .btn {
@@ -578,7 +578,7 @@ svg {
   overflow: hidden;
   transition: max-height .5s ease;
 }
-
+ */
 
 /*=============== CONTACT ===============*/
 .contact__container{
