@@ -3,4 +3,4 @@
 --admin page is a local page using xampp  
 --open the zip and cut it to C:\xampp\htdocs\login
 ---
---username: ADMIN Pass:Arsanu1#4Techu role: Admin
+- username: ADMIN Pass:Arsanu1#4Techu role: Admin
