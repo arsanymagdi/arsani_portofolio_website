@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #eee;
+    background: #2b2626;
     color: #fff;
 }
 .container{
@@ -103,6 +103,7 @@ ul li span{
 ul li span:hover{
     background: #000;
 }
+/* /--todo f--/ */
 .bases h1{
     display: flex;
     align-items: center;
