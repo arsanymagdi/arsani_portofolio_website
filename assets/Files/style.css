@@ -87,6 +87,7 @@ ul li.chaecked{
 ul li.chaecked::before{
     background-image: url(images/checked.png);
     size: 30px;
+    color: #000;
 }
 ul li span{
     position: absolute;
