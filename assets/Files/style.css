@@ -69,7 +69,7 @@ ul li{
 }
 ul li::before{
     content: '';
-    color: #555;
+    color: #000;
     position: absolute;
     height: 28px;
     width: 28px;
@@ -87,7 +87,6 @@ ul li.chaecked{
 ul li.chaecked::before{
     background-image: url(images/checked.png);
     size: 30px;
-    color: #000;
 }
 ul li span{
     position: absolute;
