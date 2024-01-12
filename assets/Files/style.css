@@ -36,7 +36,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #000000;
+    background: #edeef0;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px
@@ -101,7 +101,7 @@ ul li span{
     border-radius: 50%;
 }
 ul li span:hover{
-    background: #edeef0;
+    background: #000;
 }
 .bases h1{
     display: flex;
