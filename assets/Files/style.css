@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #2b2626;
+    background: #eee;
     color: #fff;
 }
 .container{
@@ -66,10 +66,11 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
+    color: #555;
 }
 ul li::before{
     content: '';
-    color: #000;
+    color: #555;
     position: absolute;
     height: 28px;
     width: 28px;
@@ -101,9 +102,8 @@ ul li span{
     border-radius: 50%;
 }
 ul li span:hover{
-    background: #000;
+    background: #edeef0;
 }
-/* /--todo f--/ */
 .bases h1{
     display: flex;
     align-items: center;
