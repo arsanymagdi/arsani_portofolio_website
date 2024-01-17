@@ -1,45 +1,278 @@
 <!DOCTYPE html>
-<!-- YouTube & Website - CodingLab -->
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator in HTML CSS & JavaScript</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <input type="text" class="display" />
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <div class="buttons">
-        <button class="operator" data-value="AC">AC</button>
-        <button class="operator" data-value="DEL">DEL</button>
-        <button class="operator" data-value="%">%</button>
-        <button class="operator" data-value="/">/</button>
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
-        <button data-value="7">7</button>
-        <button data-value="8">8</button>
-        <button data-value="9">9</button>
-        <button class="operator" data-value="*">*</button>
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 
-        <button data-value="4">4</button>
-        <button data-value="5">5</button>
-        <button data-value="6">6</button>
-        <button class="operator" data-value="-">-</button>
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../css/style_code.css">
 
-        <button data-value="1">1</button>
-        <button data-value="2">2</button>
-        <button data-value="3">3</button>
-        <button class="operator" data-value="+">+</button>
+      <title>Arsani-Tech</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               Arsani <span>Magdi</span>
+            </a>
 
-        <button data-value="0">0</button>
-        <button data-value="00">00</button>
-        <button data-value=".">.</button>
-        <button class="operator" data-value="=">=</button>
-      </div>
-    </div>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__list">
+                     <a href="../../index.html" class="nav__link active-link">
+                        <i class="ri-arrow-left-line"></i>Back</a>
+                  </li>
 
-    <script src="script.js"></script>
-  </body>
+               <!-- close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+<section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__data">
+
+                     <h1 class="home__title">code</h1>
+                     <p>
+                        You must create a folder with "index.html" "style.css" "script.js"
+                     <div class="code">
+                        
+                       <p> insert this code into index.html </p>
+                        <article class="services__card">
+                           <pre><code class="language-html">
+                            <!DOCTYPE html>
+                            <html lang="en">
+                              <head>
+                                <meta charset="UTF-8" />
+                                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                                <title>Calculator in HTML CSS & JavaScript</title>
+                                <link rel="stylesheet" href="style.css" />
+                              </head>
+                              <body>
+                                <div class="container">
+                                  <input type="text" class="display" />
+                            
+                                  <div class="buttons">
+                                    <button class="operator" data-value="AC">AC</button>
+                                    <button class="operator" data-value="DEL">DEL</button>
+                                    <button class="operator" data-value="%">%</button>
+                                    <button class="operator" data-value="/">/</button>
+                            
+                                    <button data-value="7">7</button>
+                                    <button data-value="8">8</button>
+                                    <button data-value="9">9</button>
+                                    <button class="operator" data-value="*">*</button>
+                            
+                                    <button data-value="4">4</button>
+                                    <button data-value="5">5</button>
+                                    <button data-value="6">6</button>
+                                    <button class="operator" data-value="-">-</button>
+                            
+                                    <button data-value="1">1</button>
+                                    <button data-value="2">2</button>
+                                    <button data-value="3">3</button>
+                                    <button class="operator" data-value="+">+</button>
+                            
+                                    <button data-value="0">0</button>
+                                    <button data-value="00">00</button>
+                                    <button data-value=".">.</button>
+                                    <button class="operator" data-value="=">=</button>
+                                  </div>
+                                </div>
+                            
+                                <script src="script.js"></script>
+                              </body>
+                            </html>
+                            
+                          </code></pre>
+                        </article>
+
+                        <p> insert this code into style.css </p>
+
+                        <article class="services__card">
+                            <pre><code class="language-css">
+                                /* Import Google font - Poppins */
+                                @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+                                * {
+                                  margin: 0;
+                                  padding: 0;
+                                  box-sizing: border-box;
+                                  font-family: "Poppins", sans-serif;
+                                }
+                                body {
+                                  height: 100vh;
+                                  display: flex;
+                                  align-items: center;
+                                  justify-content: center;
+                                  background: #191919;
+                                }
+                                .container {
+                                  position: relative;
+                                  max-width: 300px;
+                                  width: 100%;
+                                  border-radius: 12px;
+                                  padding: 10px 20px 20px;
+                                  background: #fff;
+                                  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+                                }
+                                .display {
+                                  height: 80px;
+                                  width: 100%;
+                                  outline: none;
+                                  border: none;
+                                  text-align: right;
+                                  margin-bottom: 10px;
+                                  font-size: 25px;
+                                  color: #000e1a;
+                                  pointer-events: none;
+                                }
+                                .buttons {
+                                  display: grid;
+                                  grid-gap: 10px;
+                                  grid-template-columns: repeat(4, 1fr);
+                                }
+                                .buttons button {
+                                  padding: 10px;
+                                  border-radius: 6px;
+                                  border: none;
+                                  font-size: 20px;
+                                  cursor: pointer;
+                                  background-color: #eee;
+                                }
+                                .buttons button:active {
+                                  transform: scale(0.99);
+                                }
+                                .operator {
+                                  color: #2f9fff;
+                                }                                
+                           </code></pre>
+                         </article>
+
+                         <p> insert this code into script.js </p>
+
+                         <article class="services__card">
+                            <pre><code class="language-javascript">
+                                const display = document.querySelector(".display");
+                                const buttons = document.querySelectorAll("button");
+                                const specialChars = ["%", "*", "/", "-", "+", "="];
+                                let output = "";
+                                
+                                //Define function to calculate based on button clicked.
+                                const calculate = (btnValue) => {
+                                  display.focus();
+                                  if (btnValue === "=" && output !== "") {
+                                    //If output has '%', replace with '/100' before evaluating.
+                                    output = eval(output.replace("%", "/100"));
+                                  } else if (btnValue === "AC") {
+                                    output = "";
+                                  } else if (btnValue === "DEL") {
+                                    //If DEL button is clicked, remove the last character from the output.
+                                    output = output.toString().slice(0, -1);
+                                  } else {
+                                    //If output is empty and button is specialChars then return
+                                    if (output === "" && specialChars.includes(btnValue)) return;
+                                    output += btnValue;
+                                  }
+                                  display.value = output;
+                                };
+                                
+                                //Add event listener to buttons, call calculate() on click.
+                                buttons.forEach((button) => {
+                                  //Button click listener calls calculate() with dataset value as argument.
+                                  button.addEventListener("click", (e) => calculate(e.target.dataset.value));
+                                });
+                                
+                           </code></pre>
+                         </article>
+            
+                     </div>
+                     </p>
+
+                  </div>
+               </div>
+               </div>
+            </div>
+         </section>
+         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">
+                  Arsani <span>Magdi</span>
+               </h1>
+
+               <h2 class="footer__education">
+                  Full stack Developer
+               </h2>
+            </div>
+
+            <div class="footer__social">
+               <a href="https://www.youtube.com/channel/UC8pXC1B3IVjooBlotjOQZMA" target="_blank" class="footer__social-link">
+                  <i class="ri-youtube-line"></i>
+               </a>
+
+               <a href="https://github.com/arsanymagdi" target="_blank" class="home__social-link">
+                  <i class="ri-github-fill"></i>
+               </a>
+            </div>
+            <span class="footer__copy">
+               &#169; Copyright Arsani-Tech. All rights reserved
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="../js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="../js/main.js"></script>
+      <script src="../js/box .js"></script>
+      <script src="main.js"></script>
+      <!-- typedjs -->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- <script>
+         var typed = new Typed('#element', {
+            strings: ['Front-end Developer', 'back-end Developer', 'App Developer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 50,
+            loop: true,
+         });
+       </script> -->
+       <!-- <script type="text/javascript" src="https://elzero.org/wp-includes/js/jquery/jquery.js?ver=6.1.1" id="jquery-js"></script>
+       <script type="text/javascript" src="https://elzero.org/wp-content/themes/elzero/js/bootstrap.min.js?ver=6.1.1" id="bootstrap-js-js"></script> -->
+       <!-- <script type="text/javascript" src="https://elzero.org/wp-content/themes/elzero/js/prism.js?ver=6.1.1" id="prism-highlight-js"></script> -->
+       <!-- <script type="text/javascript" src="https://elzero.org/wp-content/themes/elzero/js/main.js?ver=6.1.1" id="main-js-js"></script> -->
+
+   </body>
 </html>
