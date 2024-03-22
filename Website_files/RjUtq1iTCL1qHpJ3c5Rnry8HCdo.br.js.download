@@ -1,0 +1,1 @@
+var LanguageRegionTabStorageEmptyImpl;(function(n){function t(){}function i(n){return n}n.applyAutoRefreshStorageForBingPage=t;n.updateUrlFromTabStorage=i})(LanguageRegionTabStorageEmptyImpl||(LanguageRegionTabStorageEmptyImpl={}));LanguageRegionTabStorageHelper=LanguageRegionTabStorageEmptyImpl
