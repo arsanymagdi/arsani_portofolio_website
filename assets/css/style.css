@@ -174,7 +174,10 @@ svg {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
-
+#logo {
+  width: 70px;
+ cursor: pointer;
+}
 .nav__logo span{
   color: var(--first-color);
 }
